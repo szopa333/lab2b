@@ -7,8 +7,7 @@ html, body
 body *
 	{color:black;
 	}
-img 
-  {border: 0px;
+
 	}
 h1 
 	{font-size: 1.4em; 
@@ -17,30 +16,4 @@ h1
 	}
 h2 
 	{font-size: 1.2em;
-	}
-h3
-	{font-size: 1em; 
-	 font-weight: bold;
-	}
-table.main 
-	{padding: 0px; 
-	 border: 0px; 
-	 margin: 0px auto 0px auto; 
-	 width: 700px; 
-	 background: #fafafa;
-	}
-td 
-	{text-align: left; 
-	 vertical-align: top; 
-	 background: #ffffff;
-	}
-a 
-	{color: #9a0000; 
-	 font-size: 1em;
-	}
-a:visited 
-	{color: #c60000;
-	}
-a:hover 
-	{color: #cb8583;
 	}
