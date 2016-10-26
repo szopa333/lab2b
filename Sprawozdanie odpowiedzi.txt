@@ -1,0 +1,23 @@
+Zad2
+
+Glówne zasady i wymagania zwiazane z dostosowywanie, stron pod urzadzenia mobilne:
+1.Uklad nawigacji powinien byc przejrzysty i uproszczony do kilku podstawowych poziomów.
+2.Odsylacze powinny zawierac atrybut accesskey="1" gdzie kolejna numerki odpowiadaja klawiszom na telefonie.
+3.Tresc strony powinna zawierac tylko najistotniejsza czesc tego co jest na witrynie glównej. Wielkosc calego dokumentu nie powinna przekraczac 10kB
+4.Grafika powinna byc zoptymalizowana i pomniejszona do wymiarów nie przekraczajacych 120px. Obrazki powinny zawierac atrybut alt z tekstem zastepczym opisujacym obrazek. Zalecane jest podanie atrybutów width oraz height obrazka (w procentach), gdyz przyspiesza to renderowanie strony.
+5.Nalezy unikac JavaScript gdyz moze byc nieprawidlowo wyswietlany na niektórych urzadzeniach.
+6.Nie wolno stosowac ramek
+7.Nalezy unikac stosowania tabel oraz budowy ukladu strony na ukladzie tabeli. Zamiast tego nalezy stosowac styla kaskadowe.
+8.W sekcji naglówkowej musi byc okreslona wersja kodowania znaków. Dla stron mobilnych zaleca sie unicode UTF-8 lub ISO-8859-2
+Kod strony powinien byc zgodny ze standardami W3C i MWI. Dokument XHTML musi zaczynac sie od deklaracji jezyka znaczników DOCTYPE. Na witrynach mobilnych mozna stosowac dwie odmiany XHTML - Basic oraz Mobile.
+
+Zad 4
+
+
+Skalowanie to zwiekszanie / zmniejszanie rozmiaru strony w celu dostosowania jej do danej rozdzielczosci.
+Blokowanie skalowalnosci polega na nadaniu maksymalnej wartosci mozliwego skalowania np. Mozna zeskalowac obraz strony maksymalnie dwukrotnie.
+Wlasciwosc width (szerokosc) kontroluje wielkosc widocznego pola. Mozna jej przyisac konkretna liczbe albo specjalne slowo kluczowe - device-width, które oznacza nadanie wielkosci ekranu w pikselach przy zoomie na poziomie 100%. (Istnieja równiez height i device-height, które przydadza sie w przypadku gdy wielkosc danego elementu zalezy od wysokosci ekranu.)
+Wlasciwosc initial-scale kontroluje poziom zblizenia po zaladowaniu strony. Wlasciwosci maximum-scale, minimum-scale i user-scalable mówia o tym jak bardzo przyblizac/oddalac moze sam uzytkownik.
+
+Zad 6
+Sa to strony poradnikowe dotyczace CSS i html i javascript. Pomagaja budowac strony i zawieraja cenne wskazówki ( w postaci kodów) odnosnie ich tworzenia.
